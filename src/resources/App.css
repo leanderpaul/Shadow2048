@@ -1,0 +1,73 @@
+body {
+    margin: 0px;
+    font-family: "Clear Sans", "Helvetica Neue", Arial, sans-serif;
+    color: #776e65;
+}
+
+.header-container {
+    margin: 0px 10px;
+    display: grid;
+    grid-template-columns: 210px 70px 70px;
+    grid-gap: 10px;
+}
+
+.title {
+    font-size: 74px;
+    font-weight: bold;
+    line-height: 80px;
+}
+
+.scoreboard {
+    text-align: center;
+    margin: 15px 0px;
+    height: 55px;
+    background-color: #bbada0;
+    border-radius: 3px;
+    text-transform: uppercase;
+}
+
+.rules {
+    font-size: 17px;
+    margin: 0px 10px 10px 10px;
+}
+
+.key, .score {
+    display: block;
+    margin: 5px 0px;
+}
+
+.key {
+    color: #eee4da;
+    font-size: 13px;
+    line-height: 13px;
+}
+
+.score {
+    color: #ffffff;
+    font-size: 20px;
+}
+
+.game-container {
+    background-color: #bbada0;
+    height: 100%;
+    margin: 0px 10px;
+    padding: 10px 0px 10px 10px;
+    border-radius: 5px;
+}
+
+.game-row {
+    display: grid; 
+    grid-template-columns: repeat(4,80px);
+    grid-gap: 10px;
+}
+
+.row-gap {
+    margin-top: 10px;
+}
+
+.game-col {
+    background-color: #cdc0b4;
+    height: 80px;
+    width: 80px;
+    border-radius: 5px;
+}
