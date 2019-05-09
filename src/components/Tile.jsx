@@ -1,12 +1,12 @@
-import React from 'react'
-import '../resources/Tiles.css'
+import React from "react";
+import "../resources/Tiles.css";
 
-const Tile = (props) => {
+const Tile = props => {
     return (
-        <div className={'tile ' + props.tilePosition + ' value-' + props.value}>
-            <div>{props.value}</div>
+        <div className={"tile temp-position-" + props.tilePosition}>
+            <div className={"value-" + props.value}>{props.value}</div>
         </div>
-    )
-}
+    );
+};
 
-export default Tile
+export default Tile;
